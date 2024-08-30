@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from sklearn.emsemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier
 
 st.title('Machine Learning')
 st.info('Ejercicio de entrenamiento')
