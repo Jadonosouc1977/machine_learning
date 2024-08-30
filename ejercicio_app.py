@@ -14,5 +14,8 @@ with st.expander('Data'):
   X
 
   st.write('**Y**')
-  Y = df['species']
-  Y
+  y = df['species']
+  y
+with st.expander('Data visualization:'):
+  st.scatter_chart(df=data, x='bill_lenght_mm',y='body_mass',color = 'species')
+  
