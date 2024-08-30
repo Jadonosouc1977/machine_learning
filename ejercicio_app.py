@@ -72,6 +72,7 @@ with st.expander('Data preparation:'):
   input_row
   st.write('**Encoded (y) **')
   y
+  
 
 # Model Traning and inference #
 # Train the ML model #
